@@ -10,7 +10,11 @@ border-radius:50%;
   text-align:center;
   height:150px;
 width:150px;
+transition: transform .2s;
     }
+img:hover{
+    transform: scale(0.9)
+}
 p{
   text-align:justify;
   font-size:15px;
@@ -49,7 +53,7 @@ font-size:18px;
     font-family: 'Ranchers', cursive;
 }
 .links:hover {
-    background-color: deepskyblue;
+    background-color: dodgerblue;
 }
 .WelcomeScreen {
     position: absolute;
